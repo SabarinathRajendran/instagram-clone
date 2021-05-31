@@ -1,0 +1,6 @@
+Spring:
+  DataSource:
+    url: jdbc:postgresql://localhost:5432/instagram
+
+server:
+  port: 8081
