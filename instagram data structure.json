@@ -14,9 +14,32 @@
         "Following": {},
         "Close Friends": {},
         "Activities (within user data)": {},
-        " User posts (within user data)": {
+        " User posts (within user data) ": {
           "Stories": {},
-          "posts": {},
+          "posts": {
+            "postid": {
+              "posturl": "url",
+              "postlikescount": 5,
+              "post likes": {},
+              "TimeStamp": "10-15-2020",
+              "comments": {
+                "id": {
+                  "comment": "the comment",
+                  "user_id": "the user(using this we can render the image and name)",
+                  "replys": {
+                    "reply_id": {
+                      "user_id": "the user(using this we can render the image and name)",
+                      "reply": "the actual reply"
+                    },
+                    "reply_id2": {
+                      "user_id": "the user(using this we can render the image and name)",
+                      "reply": "the actual reply"
+                    }
+                  }
+                }
+              }
+            }
+          },
           "heighlights": {},
           "igtv": {},
           "reels": {}
