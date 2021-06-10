@@ -1,0 +1,40 @@
+{
+  "model 1": {
+    "users": {
+      "username1": {
+        "displayname": "name",
+        "bio": "bio of the user",
+        "followers": 10,
+        "Following": 10,
+        "account privacy": "private or public",
+        "account type": "business or personal",
+        "Activities (within user data)": {},
+        "posts (within user data)": {
+          "Stories": {},
+          "posts": {},
+          "heighlights": {},
+          "igtv": {},
+          "reels": {}
+        }
+      },
+      "username2": {
+        "displayname": "name",
+        "bio": "bio of the user",
+        "followers": 10,
+        "Following": 10,
+        "account privacy": "private or public",
+        "account type": "business or personal"
+      },
+      "username3": {
+        "displayname": "name",
+        "bio": "bio of the user",
+        "followers": 10,
+        "Following": 10,
+        "account privacy": "private or public",
+        "account type": "business or personal"
+      }
+    }
+  },
+
+  "Model 2": {}
+}
