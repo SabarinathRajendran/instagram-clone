@@ -2,36 +2,30 @@
   "model 1": {
     "users": {
       "username1": {
+        "username": "username",
         "displayname": "name",
         "bio": "bio of the user",
-        "followers": 10,
-        "Following": 10,
         "account privacy": "private or public",
         "account type": "business or personal",
+        "followers count": 10,
+        "Following count": 34,
+        "Post count": 20,
+        "followers": {},
+        "Following": {},
+        "Close Friends": {},
         "Activities (within user data)": {},
-        "posts (within user data)": {
+        " User posts (within user data)": {
           "Stories": {},
           "posts": {},
           "heighlights": {},
           "igtv": {},
           "reels": {}
-        }
-      },
-      "username2": {
-        "displayname": "name",
-        "bio": "bio of the user",
-        "followers": 10,
-        "Following": 10,
-        "account privacy": "private or public",
-        "account type": "business or personal"
-      },
-      "username3": {
-        "displayname": "name",
-        "bio": "bio of the user",
-        "followers": 10,
-        "Following": 10,
-        "account privacy": "private or public",
-        "account type": "business or personal"
+        },
+        "Suggestion": {
+          "Feed": {},
+          "Reels Suggestions": {}
+        },
+        "Friends Suggestion (choose between ML, Connection graph and JSON)": {}
       }
     }
   },
