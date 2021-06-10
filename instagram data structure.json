@@ -15,7 +15,6 @@
         "Close Friends": {},
         "Activities (within user data)": {},
         " User posts (within user data) ": {
-          "Stories": {},
           "posts": {
             "postid": {
               "posturl": "url",
@@ -40,6 +39,14 @@
               }
             }
           },
+          "Stories": {
+            "storyid": {
+              "storyurl": "url",
+              "storyviewscount": 5,
+              "story views": {},
+              "TimeStamp": "10-15-2020"
+            }
+          },
           "heighlights": {},
           "igtv": {},
           "reels": {}
@@ -53,5 +60,68 @@
     }
   },
 
-  "Model 2": {}
+  "Model 2": {
+    "users": {
+      "username1": {
+        "username": "username",
+        "displayname": "name",
+        "bio": "bio of the user",
+        "account privacy": "private or public",
+        "account type": "business or personal",
+        "followers count": 10,
+        "Following count": 34,
+        "Post count": 20,
+        "posts": {
+          "postnumber": "postid",
+          "postnumber2": "postid"
+        },
+        "followers": {},
+        "Following": {},
+        "Close Friends": {},
+        "Story heighlights": {},
+        "Activities (within user data)": {}
+      }
+    },
+    "post": {
+      "postid": {
+        "posturl": "url",
+        "postlikescount": 5,
+        "post likes": {
+          "timestamp": "userid"
+        },
+        "TimeStamp": "10-15-2020",
+        "comments": {
+          "id": {
+            "comment": "the comment",
+            "user_id": "the user(using this we can render the image and name)",
+            "replys": {
+              "reply_id": {
+                "user_id": "the user(using this we can render the image and name)",
+                "reply": "the actual reply"
+              },
+              "reply_id2": {
+                "user_id": "the user(using this we can render the image and name)",
+                "reply": "the actual reply"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Stories": {
+      "storyid": {
+        "storyurl": "url",
+        "storyviewscount": 5,
+        "story views": {},
+        "TimeStamp": "10-15-2020"
+      }
+    },
+    "igtv": {},
+    "reels": {},
+    "Suggestion": {
+      "Feed": {},
+      "Reels Suggestions": {}
+    },
+    "Friends Suggestion (choose between ML, Connection graph and JSON)": {}
+  }
 }
