@@ -4,8 +4,15 @@ import { StyleSheet, Text, View } from "react-native";
 import Main from "./src/screens/Main";
 import Authentication from "./src/screens/Authentication/index";
 
+import store from "./src/Store";
+import { Provider } from "react-redux";
+
 export default function App() {
-  return <Authentication />;
+  return (
+    <Provider store={store}>
+      <Authentication />
+    </Provider>
+  );
 }
 
 const styles = StyleSheet.create({

@@ -122,6 +122,6 @@
       "Feed": {},
       "Reels Suggestions": {}
     },
-    "Friends Suggestion (choose between ML, Connection graph and JSON)": {}
+    "Friends Suggestion (goes with neo4j db and creates new one every weeks for a user)": {}
   }
 }
