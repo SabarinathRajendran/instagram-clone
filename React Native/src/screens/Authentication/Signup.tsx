@@ -1,11 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Splashscreen from "./SplashScreen/index";
 
-const Initial = () => {
-  return <Splashscreen />;
+const Signup = () => {
+  return (
+    <View>
+      <Text></Text>
+    </View>
+  );
 };
 
-export default Initial;
+export default Signup;
 
 const styles = StyleSheet.create({});

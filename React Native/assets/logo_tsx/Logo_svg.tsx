@@ -9,7 +9,7 @@ import Svg, {
 
 function Logo_svg(props: SvgProps) {
   return (
-    <Svg viewBox="0 0 512 512" {...props}>
+    <Svg {...props}>
       <RadialGradient
         cx={56.35}
         cy={19.218}
