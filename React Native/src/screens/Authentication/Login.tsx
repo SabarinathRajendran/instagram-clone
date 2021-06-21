@@ -11,4 +11,10 @@ const Login = () => {
 
 export default Login;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  Container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});

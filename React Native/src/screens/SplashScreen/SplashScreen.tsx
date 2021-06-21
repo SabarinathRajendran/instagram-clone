@@ -7,8 +7,10 @@ const SplashScreen = () => {
   const vwidth = 512;
   const vHeight = 512;
 
+  const { colors } = useTheme();
+
   return (
-    <View style={styles.container}>
+    <View style={[{ ...styles.container, backgroundColor: colors.background }]}>
       <View style={styles.Logocontainer}>
         <Logo_svg
           style={{ alignSelf: "center" }}
@@ -18,8 +20,13 @@ const SplashScreen = () => {
         />
       </View>
       <View style={styles.TextContainer}>
-        <Text style={styles.Text}>By</Text>
-        <Text style={[{ ...styles.Text }, { fontWeight: "bold" }]}>
+        <Text style={[{ ...styles.Text, color: colors.text }]}>Clone By</Text>
+        <Text
+          style={[
+            { ...styles.Text },
+            { fontWeight: "bold", color: colors.text },
+          ]}
+        >
           SABARINATH
         </Text>
       </View>
