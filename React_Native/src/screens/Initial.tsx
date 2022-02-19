@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Splashscreen from "./SplashScreen/index";
+import Login from "./Authentication/Login";
 
 const Initial = () => {
-  return <Splashscreen />;
+  return <Login />;
 };
 
 export default Initial;

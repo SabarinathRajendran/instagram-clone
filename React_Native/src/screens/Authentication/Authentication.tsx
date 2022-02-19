@@ -1,30 +1,19 @@
 import React from "react";
-import {
-  Dimensions,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-  Image,
-} from "react-native";
-import LoginField from "./LoginField";
-import Line from "../Components/Line";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import SignInAcrue from "./SignInAcrue";
-
-import * as svg from "react-native-svg";
 import InstagramIcon from "../../../assets/logo_tsx/Instagram_logo";
-
-const { width, height } = Dimensions.get("window");
-const vwidth = 800;
-const vHeight = 300;
+import { useTheme } from "@react-navigation/native";
 
 const Authentication = () => {
+  const { colors } = useTheme();
+
   return (
     <View style={styles.container}>
       <InstagramIcon
         width={200}
         height={80}
-        viewBox={[0, 0, vwidth, vHeight].join(" ")}
+        viewBox={[0, 0, 800, 300].join(" ")}
+        fill={colors.text}
       />
       <Text style={{ fontSize: 30, fontWeight: "bold", marginBottom: 15 }}>
         Clone

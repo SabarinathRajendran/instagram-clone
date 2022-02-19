@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="425" height="337.5" viewBox="0 0 425 337.5">
+  <defs>
+    <rect id="rect-1" width="425" height="337.5" x="0" y="0"/>
+    <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="425" height="337.5" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-1"/>
+    </mask>
+    <path id="path-5" fill-rule="evenodd" d="M27 17l242.41320222 198.24885364L397.5 320"/>
+    <filter id="filter-6" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="10" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="0"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <g>
+    <use fill="none" xlink:href="#rect-1"/>
+    <g mask="url(#mask-2)">
+      <g>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="25" d="M12.5 212.5c0-110.3830049 89.6169951-200 200-200s200 89.6169951 200 200"/>
+        <path fill="rgb(255,255,255)" fill-rule="evenodd" d="M249.3072815 93.0163269C237.66912841 89.43057251 225.30822753 87.5 212.5 87.5c-68.98937988 0-125 56.01062012-125 125s56.01062012 125 125 125 125-56.01062012 125-125c0-12.80822754-1.93057251-25.16912842-5.5163269-36.8072815C322.17663574 197.3880005 300.33920288 212.5 275 212.5c-34.49468994 0-62.5-28.00531006-62.5-62.5 0-25.33920288 15.11199951-47.17663574 36.8072815-56.9836731z"/>
+      </g>
+      <g>
+        <use fill="black" fill-opacity="0" stroke="black" stroke-width="25" filter="url(#filter-6)" xlink:href="#path-5"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="miter" stroke-width="25" xlink:href="#path-5"/>
+      </g>
+    </g>
+  </g>
+</svg>
